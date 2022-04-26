@@ -1,1 +1,282 @@
 /* You can add global styles to this file, and also import other style files */
+/*      REGLAS GENERALES! ---------------------------------------------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+width: 100%;
+margin: 10px auto;
+}
+
+.seccion{
+    width: 100%;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #726B6B;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #726B6B;
+    margin: 15 10px;
+    padding-left: 10px;
+}
+
+h2{
+    font-size: 34px;
+    color: #0E6A8B;
+    font-weight: 700;
+    margin: 5 10px;
+    padding-left: 10px;
+}
+
+h3{
+    font-size: 20px;
+    color: #726B6B;
+    font-weight: 700; 
+    margin: 15 10px;
+    padding-left: 10px;
+}
+
+.imagen-fondo {
+    width: 30%;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    padding:0;
+    z-index: -1;
+}
+/*      HEADER! ---------------------------------------------------------------------- */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-ap img{
+    width: 260px;
+} 
+
+.navbar a{
+    margin: 0 10px;
+    display: inline-block;
+    color: #726B6B;
+    font-size: 25px;
+    font-weight:700;
+    text-decoration: none;
+}
+.navbar a:active{
+    background-color: #efd81d;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 20px;
+}
+/*      HOME! ---------------------------------------------------------------------- */
+
+.img-fondo-home {
+    width: 30%;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    padding:0;
+}
+.img-tarjeta{
+    width: 50%;
+    padding: 0;
+}
+
+.seccion 
+.bloque-banner-contenido{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.bloque-banner-contenido h2{
+    margin: 20px auto;
+}
+.bloque-banner-contenido ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bloque-banner-contenido ul li{
+    margin: 0 10px;
+}
+
+
+/*      EXPERIENCIA! ---------------------------------------------------------------------- */
+
+/*      EDUCACIÓN! ---------------------------------------------------------------------- */
+
+#educacion .col-6{
+    padding: 20px;
+}
+#edu-argprog{
+    margin: 20px auto;
+    background-color: #F6BEA5;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #757575;
+    padding-top: 20px;
+    padding-left: 25px;
+    position: relative;
+}
+#edu-ingbio{
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px #757575;
+    padding-top: 20px;
+    padding-left: 25px;
+    position: relative;  
+}
+
+#educacion .col-12 img{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 20px    0 0;
+}
+
+.nav-cv a{
+    margin: 0 15px;
+}
+
+/*      SKILLS! ---------------------------------------------------------------------- */
+
+#skills .grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 25px;
+    padding: 20px;
+}
+
+.card{
+    outline: 1 px solid #726B6B;  
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 250px;
+}
+
+.card i{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+#skills-card{
+    font-size: 40px;
+    background-color: #0E6A8B;
+    padding: 20px;
+    text-align: center;
+}
+
+#skills-card i,h1{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#logo-html:hover{
+    color: #f77900;
+}
+#logo-css3:hover{
+    color: #01a5da;
+}
+#logo-figma:hover{
+    color: #9d56f7;
+}
+#logo-angular:hover{
+    color: #9d56f7;
+}
+#logo-js:hover{
+    color: #efd81d;
+}
+
+#logo-castellano:hover{
+    color: #a81418;
+}
+#logo-ingles:hover{
+    color: #255da2;
+}
+#logo-italia:hover{
+    color: #008d44;
+}
+
+
+/*      PORTFOLIO! ---------------------------------------------------------------------- */
+
+#portfolio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*      CONTACTO! ---------------------------------------------------------------------- */
+#contacto .container{
+    width: 70%;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px #757575;
+    backdrop-filter: blur(50px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+
+.bloque-contacto h3{
+    margin: 30px 10px;
+}
+
+#contacto .form-control{
+    border-color: #1D84A9;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.enviar-btn{
+    padding: 10px;
+    width: 200px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0E6A8B;
+}
+
+/*      FOOTER! ---------------------------------------------------------------------- */
+footer {
+    text-align: center;
+}
+.barra-footer{
+    background-color: gray;
+    padding: 20px 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+footer a{
+    color: #0E6A8B;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
