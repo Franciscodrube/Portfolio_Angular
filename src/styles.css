@@ -79,7 +79,21 @@ header .container{
     font-weight:700;
     text-decoration: none;
 }
-.navbar a:active{
+
+.header-iconos{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.header-iconos a{
+    font-size: 30px;
+    color: #726B6B;
+    margin: 0 5px;
+}
+
+
+.navbar a:hover{
     background-color: #efd81d;
     border-radius: 5px;
     color: #fff;
@@ -126,6 +140,7 @@ header .container{
 #educacion .col-6{
     padding: 20px;
 }
+
 #edu-argprog{
     margin: 20px auto;
     background-color: #F6BEA5;
@@ -207,7 +222,7 @@ header .container{
     color: #9d56f7;
 }
 #logo-angular:hover{
-    color: #9d56f7;
+    color: #bd002e;
 }
 #logo-js:hover{
     color: #efd81d;
@@ -280,3 +295,4 @@ footer a{
     margin-bottom: 20px;
     font-size: 50px;
 }
+
