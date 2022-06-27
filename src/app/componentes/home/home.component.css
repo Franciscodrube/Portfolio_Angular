@@ -1,0 +1,31 @@
+
+.img-fondo-home {
+    display: none;
+}
+
+.img-tarjeta{
+    width: 80%;
+    min-width: 15rem;
+    margin: 1rem auto .5rem;
+    padding-left: 1rem;
+}
+
+.bloque-banner-contenido{
+    margin-top: 0rem;
+    margin-left: 1.25rem;
+}
+
+.bloque-banner-contenido h2{
+    margin: .75rem auto;
+}
+.bloque-banner-contenido ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+.bloque-banner-contenido i {
+   font-size: 1.5rem;
+}
+.bloque-banner-contenido ul li{
+    margin: 0 .625rem;
+}

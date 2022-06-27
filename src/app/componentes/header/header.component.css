@@ -1,0 +1,27 @@
+.logo-ap-container{
+    width: 50%;
+    min-width: 10%;
+}
+img {
+    width: 50%;
+    min-width: 4rem;
+} 
+
+.header-iconos{
+    display: flex;
+    align-items: baseline;  
+}
+
+.header-iconos a{
+    font-size: 1rem;
+    color: #726B6B;
+    margin: 0 .5rem;
+}
+
+
+.navbar li:hover{
+    background-color: #efd81d;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 20px;
+}

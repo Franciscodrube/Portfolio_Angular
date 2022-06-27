@@ -1,0 +1,47 @@
+
+.grid-educacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-ed{
+    width: 80%;
+    height: max-content;
+    margin: 1rem auto;
+    position: relative;
+    border-radius: 1.25rem;
+    box-shadow: 2px 2px 10px #757575;
+    padding-top: 1.25rem;
+    padding-left: 1.5rem;
+    
+}
+.tarjeta-ed p,h2,h3{
+    padding: .5 rem;
+}
+
+.tarjeta-ap{
+    background-color: #F6BEA5;
+}
+
+.tarjeta-ed img{
+    width: 15%;
+    min-width: 1.25rem;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 1.25rem 0 0;
+    display: none;
+}
+
+.nav-cv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 1rem;
+
+}
+.nav-cv a{
+    margin: 0 2rem;
+}

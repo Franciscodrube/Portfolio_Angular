@@ -1,0 +1,21 @@
+.cont-portfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.cont-portfolio-item{
+    width: 60%;
+}
+.cont-portfolio-item img{
+    width: 90%;
+}
+.cont-portfolio-item a{
+    text-decoration: none;
+}
+.cont-portfolio-item h3{
+    font-size: 2.5vw;
+}

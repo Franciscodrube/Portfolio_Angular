@@ -1,0 +1,64 @@
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 0.5rem;
+    padding: 1rem
+}
+
+.card{
+    outline: 1 px solid #726B6B;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+.card i{
+    font-size: 3.5vw;
+    margin: 1em;
+}
+.card h3{
+    font-size: 1.5vw;
+    margin-bottom: 1em;
+}
+
+.skills-cards{
+    background-color: #0E6A8B;
+    text-align: center;
+}
+
+.skills-cards i, .skills-cards h1{
+    font-size: .5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.skills-cards h1{
+    display: none;
+}
+
+#logo-html:hover{
+    color: #f77900;
+}
+#logo-css3:hover{
+    color: #01a5da;
+}
+#logo-figma:hover{
+    color: #9d56f7;
+}
+#logo-angular:hover{
+    color: #bd002e;
+}
+#logo-js:hover{
+    color: #efd81d;
+}
+
+#logo-castellano:hover{
+    color: #a81418;
+}
+#logo-ingles:hover{
+    color: #255da2;
+}
+#logo-italia:hover{
+    color: #008d44;
+}
