@@ -1,12 +1,15 @@
 .logo-ap-container{
-    width: 50%;
-    min-width: 10%;
-}
-img {
-    width: 50%;
+    width: 100%;
     min-width: 4rem;
-} 
+}
 
+.navbar a{
+    margin: 0 0.325rem;
+    color: #726B6B;
+    font-weight:700;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
 .header-iconos{
     display: flex;
     align-items: baseline;  
@@ -18,10 +21,9 @@ img {
     margin: 0 .5rem;
 }
 
-
-.navbar li:hover{
+.navbar-nav a:active{
     background-color: #efd81d;
     border-radius: 5px;
     color: #fff;
     margin: 0 20px;
-}
+} 

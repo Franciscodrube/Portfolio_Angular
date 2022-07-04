@@ -1,16 +1,33 @@
-   <section id="home" class="seccion">  
-     
-        <div class="bloque-banner-contenido">
-            <h2>Skills</h2>
-            <ul>
-                <li><i class="fa-brands fa-html5"></i></li>
-                <li><i class="fa-brands fa-css3"></i></li>
-                <li><i class="fa-brands fa-js-square"></i></li>
-                <li><i class="fa-brands fa-angular"></i></li>
-                <li><i class="fa-brands fa-figma"></i></li>
-            </ul>   
-            <h2>Acerca de mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem, adipisci eum optio minima sapiente consequuntur quasi sunt autem tenetur deserunt obcaecati laboriosam consequatur commodi. Ea nam iste eligendi dolorum.</p>
-        </div>     
-            <img src="../../../assets/imgs/foto y fondo.png" alt="" class="img-fondo-home">
-    </section>
+<article class="container bloque-banner-contenido">
+   <div class="row card h-100 bg-dark text-light m-2">
+       <div class="d-flex card-body flex-column flex-md-row">
+            <div class="col-md-4">
+                <img src="https://loremflickr.com/320/240" 
+                    class=" rounded-circle border border-5 border-secondary" 
+                    style="width: 100%"/>
+            </div>
+
+            <div class="card-text mt-3 col-md-6">
+                <h6 class="m-0 h6 card-title">{{inicioData.name}}</h6>
+                <p class="m-0 h6 card-subtitle" >{{inicioData.position}}</p>
+                <h2>Skills</h2>
+                <ul>
+                    <li><i class="fa-brands fa-html5"></i></li>
+                    <li><i class="fa-brands fa-css3"></i></li>
+                    <li><i class="fa-brands fa-js-square"></i></li>
+                    <li><i class="fa-brands fa-angular"></i></li>
+                    <li><i class="fa-brands fa-figma"></i></li>
+                </ul>   
+                <h2>Acerca de mí</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet 
+                    consectetur adipisicing elit. Perspiciatis, 
+                    harum. Ea cupiditate labore, saepe omnis doloribus
+                    corporis facilis facere dolorem debitis dolores libero optio
+                    unde tempore! Eveniet nobis ab velit.
+                </p>
+                <a routerLink="portfolio" class="btn btn-warning">¡Ir a Mis proyectos!</a>
+            </div>        
+        </div>
+    </div>
+</article>     

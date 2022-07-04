@@ -1,4 +1,4 @@
-/*      REGLAS GENERALES! ---------------------------------------------------------------------- */
+
 *{
     padding: 0;
     margin: 0;
@@ -7,13 +7,8 @@
     text-decoration: none;
     font-family: 'Outfit', sans-serif;
 }
+  
 
-.seccion{
-    margin: 0 auto 1.25rem;
-    border-radius: 0.625rem;
-    position: relative;
-    overflow: hidden;
-}
 p{
     font-weight: 600;
     color: #726B6B;
@@ -40,14 +35,14 @@ h3{
 
 @media (min-width: 601px) { 
    
-    /* .navbar a{
+     .navbar a{
         margin: 0 0.325rem;
         color: #726B6B;
         font-weight:700;
         text-decoration: none;
         font-size: 0.7rem;
-    } */
-    .logo-ap-container{
+    } 
+     .logo-ap-container{
         width: 15%;
     }
 
@@ -108,10 +103,10 @@ h3{
 
     .footer p, .footer h4{
         display: block;
-    }
+    } 
 
 
-    
+     
     .bloque-contacto iframe{
         width: 15rem;
         height: 10rem;
@@ -120,14 +115,14 @@ h3{
 }
 @media (min-width: 900px) {
 
-    /* .navbar a{
+    .navbar a{
         margin: 0 0.525rem;
         color: #726B6B;
         font-weight:700;
         text-decoration: none;
         font-size: 1rem;
-    } */
-    .header-iconos a{
+    } 
+     .header-iconos a{
         font-size: 1.2rem;
         color: #726B6B;
         margin: 0.525rem;
@@ -201,4 +196,4 @@ h3{
     .bloque-banner-contenido p{
         font-size: 1.4rem;
     }
-}
+} 

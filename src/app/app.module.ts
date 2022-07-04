@@ -12,8 +12,9 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { APP_BASE_HREF } from '@angular/common';
-import { RouterModule } from '@angular/router';
-@NgModule({
+import { PortfolioServiceService } from './servicios/portfolio-service.service' 
+import {HttpClientModule} from '@angular/common/http'
+@NgModule({ 
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -23,15 +24,16 @@ import { RouterModule } from '@angular/router';
     SkillsComponent,
     PortfolioComponent,
     ContactoComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-
-  ],
-  providers: [{provide: APP_BASE_HREF, useValue : '/' }],
+    HttpClientModule
+    ],
+  providers: [{provide: APP_BASE_HREF, useValue : '/' },
+              PortfolioServiceService],   
   bootstrap: [AppComponent] 
 })
 export class AppModule { }
