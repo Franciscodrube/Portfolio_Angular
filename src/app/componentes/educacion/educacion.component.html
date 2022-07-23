@@ -1,4 +1,38 @@
-<section id="educacion" class="seccion">
+<div class="container ">
+    <div class="container"> 
+        <h3 class="m-3">Educación</h3>
+    </div>
+    <ul>
+        <!-- recorremos con la directiva ngFor el arreglo "experience" del archivo json "data" para traer todos los elementos -->
+        <li *ngFor="let education of educationData">
+            <div class="card h-100 bg-ligth" >
+                <div class="card-body"> 
+                    <div class="d-flex mb-3">
+                        <img src="https://loremflickr.com/60/60" class="rounded-circle border border-3 border-warning" alt="">
+                        <div class="ps-3">
+                            <h6 class="m-0 h6 badge text-bg-warning">{{education.school}}</h6>
+                            <p class="mb-1 fs-6">{{education.title}}</p>
+                            <p class="h6">{{education.start}} - {{education.end}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section id="educacion" class="seccion">
     <div class="grid-educacion">
         <div class="tarjeta-ed tarjeta-ap">
             <img src="img/logo AP.png" cls alt="">
@@ -29,4 +63,4 @@
         <a href="#">Ver CV completo en Español</a>
         <a href="#">Ver CV completo en Inglés</a>
     </div>
-</section>
+</section> -->

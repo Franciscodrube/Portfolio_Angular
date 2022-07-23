@@ -2,8 +2,18 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
+// EJEMPLO DE YOUTUBE CON FIREBASE.
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyAZaPL72bdhg9BfZ4GiVdQZXZ79rkIs-YE",
+    authDomain: "crud-pf-angular-fb.firebaseapp.com",
+    projectId: "crud-pf-angular-fb",
+    storageBucket: "crud-pf-angular-fb.appspot.com",
+    messagingSenderId: "35643392840",
+    appId: "1:35643392840:web:e6aa3236524da8c8f8a97d"
+  }
 };
 
 /*

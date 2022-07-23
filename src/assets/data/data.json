@@ -21,7 +21,7 @@
             "province": "Córdoba",
             "country": "Argentina"   
         },
-    "about":"Me gusta el arte... ",
+    "about":"Mi animal favorito es el gato... ",
     "experience":[
         {
             "position":"Ingeniero Biomédico Jr",
@@ -30,7 +30,8 @@
             "mode":"full-time",
             "start":"2022",
             "end":"actualidad",
-            "timeElapsed":""
+            "timeElapsed":"",
+            "description":"Me destaco en el estudio e implementación de las normativas internacionales ISO e IEC en el area de Diseño y Desarrollo de la empresa.  "
         },
         {
             "position":"Socio fundador",
@@ -39,7 +40,8 @@
             "mode":"full-time",
             "start":"02/02/2018",
             "end":"31/01/2021",
-            "timeElapsed":"3 años"
+            "timeElapsed":"3 años",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, dolorem nostrum. Odit ipsum officiis eveniet sequi ad placeat praesentium magni animi, est quo aperiam harum quidem laboriosam blanditiis facere? Quia."
         },
         {
             "position":"Responsable de tienda",
@@ -48,7 +50,8 @@
             "mode":"full-time",
             "start":"01/08/2018",
             "end":"30/11/2018",
-            "timeElapsed":"3 meses"
+            "timeElapsed":"3 meses",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, dolorem nostrum. Odit ipsum officiis eveniet sequi ad placeat praesentium magni animi, est quo aperiam harum quidem laboriosam blanditiis facere? Quia."
         }
     ],
     "education":[

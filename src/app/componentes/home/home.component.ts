@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { PortfolioServiceService } from 'src/app/servicios/portfolio-service.service';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -8,6 +7,7 @@ import { PortfolioServiceService } from 'src/app/servicios/portfolio-service.ser
 })
 export class HomeComponent implements OnInit {
   inicioData:any;
+
   constructor(private datosPortfolio:PortfolioServiceService) { }
 
   ngOnInit(): void {

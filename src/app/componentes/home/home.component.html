@@ -1,32 +1,28 @@
-<article class="container bloque-banner-contenido">
+<article class="container-fluid bloque-banner-contenido mx-auto ">
    <div class="row card h-100 bg-dark text-light m-2">
        <div class="d-flex card-body flex-column flex-md-row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <img src="https://loremflickr.com/320/240" 
                     class=" rounded-circle border border-5 border-secondary" 
-                    style="width: 100%"/>
+                    style="width: 100%">
             </div>
 
-            <div class="card-text mt-3 col-md-6">
-                <h6 class="m-0 h6 card-title">{{inicioData.name}}</h6>
-                <p class="m-0 h6 card-subtitle" >{{inicioData.position}}</p>
+            <div class="card-text p-4 col-md-9">
+                <h3 class="mb-1 h3 card-title">{{inicioData.name}}</h3>
+                <p class="m-0 h6 card-subtitle text-warning" >{{inicioData.position}}</p>
+
                 <h2>Skills</h2>
-                <ul>
-                    <li><i class="fa-brands fa-html5"></i></li>
-                    <li><i class="fa-brands fa-css3"></i></li>
-                    <li><i class="fa-brands fa-js-square"></i></li>
-                    <li><i class="fa-brands fa-angular"></i></li>
-                    <li><i class="fa-brands fa-figma"></i></li>
-                </ul>   
+                    <ul class="d-flex flex-wrap">
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li><i class="fa-brands fa-css3"></i></li>
+                        <li><i class="fa-brands fa-js-square"></i></li>
+                        <li><i class="fa-brands fa-angular"></i></li>
+                        <li><i class="fa-brands fa-figma"></i></li>
+                    </ul>   
+                
                 <h2>Acerca de mí</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet 
-                    consectetur adipisicing elit. Perspiciatis, 
-                    harum. Ea cupiditate labore, saepe omnis doloribus
-                    corporis facilis facere dolorem debitis dolores libero optio
-                    unde tempore! Eveniet nobis ab velit.
-                </p>
-                <a routerLink="portfolio" class="btn btn-warning">¡Ir a Mis proyectos!</a>
+                <p>{{inicioData.about}}</p>
+                <a routerLink="/portfolio" class="btn btn-warning">¡Ir a Mis proyectos!</a>
             </div>        
         </div>
     </div>
